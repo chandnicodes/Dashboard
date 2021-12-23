@@ -64,6 +64,7 @@ $(document).ready(function () {
             $('.active').prepend(`
                 <div class="active_box"></div>
                 <div id="curved-corner-topright"></div>
+                <div id="curved-corner-bottomright"></div>
             `)
 
         } else if (window.location.pathname == '/coolboot-task/myprojects.html') {
@@ -73,6 +74,7 @@ $(document).ready(function () {
             $('.active').prepend(`
                 <div class="active_box"></div>
                 <div id="curved-corner-topright"></div>
+                <div id="curved-corner-bottomright"></div>
             `)
 
         }
@@ -83,6 +85,7 @@ $(document).ready(function () {
             $('.active').prepend(`
                 <div class="active_box"></div>
                 <div id="curved-corner-topright"></div>
+                <div id="curved-corner-bottomright"></div>
             `)
 
         }
@@ -93,6 +96,7 @@ $(document).ready(function () {
             $('.active').prepend(`
                 <div class="active_box"></div>
                 <div id="curved-corner-topright"></div>
+                <div id="curved-corner-bottomright"></div>
             `)
 
         }
@@ -103,6 +107,7 @@ $(document).ready(function () {
             $('.active').prepend(`
                 <div class="active_box"></div>
                 <div id="curved-corner-topright"></div>
+                <div id="curved-corner-bottomright"></div>
             `)
 
         }
