@@ -45,7 +45,7 @@ $(document).ready(function () {
 
 
     setTimeout(function () {
-        if (window.location.pathname == '/index.html') {
+        if (window.location.pathname == '/coolboot-task/index.html') {
 
             console.log('home page')
             let dashboardMenu = $('.sb.list')[0];
@@ -56,7 +56,7 @@ $(document).ready(function () {
                 <div id="curved-corner-bottomright"></div>
             `)
 
-        } else if (window.location.pathname == '/mytask.html') {
+        } else if (window.location.pathname == '/coolboot-task/mytask.html') {
 
             console.log('my task page')
             let projectMenu = $('.sb.list')[1];
@@ -66,7 +66,7 @@ $(document).ready(function () {
                 <div id="curved-corner-topright"></div>
             `)
 
-        } else if (window.location.pathname == '/myprojects.html') {
+        } else if (window.location.pathname == '/coolboot-task/myprojects.html') {
             console.log('my projects page')
             let projectMenu = $('.sb.list')[2];
             $(projectMenu).addClass('active')
@@ -76,7 +76,7 @@ $(document).ready(function () {
             `)
 
         }
-        else if (window.location.pathname == '/history.html') {
+        else if (window.location.pathname == '/coolboot-task/history.html') {
             console.log('History Page')
             let projectMenu = $('.sb.list')[3];
             $(projectMenu).addClass('active')
@@ -86,7 +86,7 @@ $(document).ready(function () {
             `)
 
         }
-        else if (window.location.pathname == '/invoice.html') {
+        else if (window.location.pathname == '/coolboot-task/invoice.html') {
             console.log('Invoice page')
             let projectMenu = $('.sb.list')[4];
             $(projectMenu).addClass('active')
@@ -96,7 +96,7 @@ $(document).ready(function () {
             `)
 
         }
-        else if (window.location.pathname == '/help.html') {
+        else if (window.location.pathname == '/coolboot-task/help.html') {
             console.log('help page')
             let projectMenu = $('.sb.list')[5];
             $(projectMenu).addClass('active')
